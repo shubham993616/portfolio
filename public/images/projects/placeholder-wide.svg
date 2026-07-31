@@ -1,0 +1,34 @@
+<!-- PLACEHOLDER — replace with a real screenshot (1600x900 recommended). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Placeholder screenshot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141B2D"/>
+      <stop offset="100%" stop-color="#0B0F17"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#273148" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+
+  <!-- Browser chrome -->
+  <rect x="180" y="180" width="1240" height="560" rx="18" fill="#0F1420" stroke="#273148" stroke-width="2"/>
+  <rect x="180" y="180" width="1240" height="54" rx="18" fill="#141B2D"/>
+  <rect x="180" y="216" width="1240" height="18" fill="#141B2D"/>
+  <circle cx="216" cy="207" r="7" fill="#38445F"/>
+  <circle cx="240" cy="207" r="7" fill="#38445F"/>
+  <circle cx="264" cy="207" r="7" fill="#38445F"/>
+  <rect x="300" y="197" width="380" height="20" rx="10" fill="#1B243A"/>
+
+  <!-- Skeleton content -->
+  <rect x="232" y="290" width="300" height="22" rx="8" fill="#1B243A"/>
+  <rect x="232" y="330" width="620" height="14" rx="7" fill="#161E30"/>
+  <rect x="232" y="358" width="520" height="14" rx="7" fill="#161E30"/>
+  <rect x="232" y="420" width="340" height="200" rx="14" fill="#141B2D" stroke="#273148" stroke-width="1.5"/>
+  <rect x="600" y="420" width="340" height="200" rx="14" fill="#141B2D" stroke="#273148" stroke-width="1.5"/>
+  <rect x="968" y="420" width="340" height="200" rx="14" fill="#141B2D" stroke="#273148" stroke-width="1.5"/>
+
+  <text x="800" y="700" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#64748B" text-anchor="middle" letter-spacing="3">PLACEHOLDER SCREENSHOT</text>
+</svg>

@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Update the host if you deploy to a custom domain.
+Sitemap: https://shubhammodanwal.vercel.app/sitemap.xml

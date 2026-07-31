@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!--
+      Paint the correct palette before React mounts. Without this, a visitor
+      who chose the light theme sees a dark flash on every hard navigation.
+    -->
+    <script>
+      ;(function () {
+        try {
+          var stored = localStorage.getItem('portfolio-theme')
+          // Dark is the designed default for every first-time visitor; only an
+          // explicit choice made with the theme toggle switches to light.
+          var theme = stored === 'light' ? 'light' : 'dark'
+          document.documentElement.setAttribute('data-theme', theme)
+        } catch (error) {
+          document.documentElement.setAttribute('data-theme', 'dark')
+        }
+      })()
+    </script>
+
+    <title>Shubham Modanwal — Backend-Focused Software Engineer</title>
+    <meta
+      name="description"
+      content="Backend-focused software engineer building secure Java and Spring Boot systems. Co-Founder &amp; CPO at Neosix Technologies, full-stack intern at Vidyarthimitra, GATE 2026 qualified."
+    />
+    <meta
+      name="keywords"
+      content="Shubham Modanwal, backend engineer, Java developer, Spring Boot, software engineer portfolio, REST API, MySQL, React, TypeScript, GATE 2026, AKGEC"
+    />
+    <meta name="author" content="Shubham Modanwal" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#0B0F17" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="canonical" href="https://shubhammodanwal.vercel.app" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Shubham Modanwal" />
+    <meta property="og:title" content="Shubham Modanwal — Backend-Focused Software Engineer" />
+    <meta
+      property="og:description"
+      content="Backend-focused software engineer building secure Java and Spring Boot systems. Co-Founder &amp; CPO at Neosix Technologies."
+    />
+    <meta property="og:url" content="https://shubhammodanwal.vercel.app" />
+    <meta property="og:image" content="https://shubhammodanwal.vercel.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Shubham Modanwal — Backend-Focused Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Backend-focused software engineer building secure Java and Spring Boot systems."
+    />
+    <meta name="twitter:image" content="https://shubhammodanwal.vercel.app/og-image.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Warm up the dashboard's data origin before React asks for it. -->
+    <link rel="preconnect" href="https://api.github.com" crossorigin />
+    <link rel="dns-prefetch" href="https://api.github.com" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="padding: 3rem; font-family: system-ui, sans-serif; color: #f8fafc; background: #0b0f17">
+        <h1>Shubham Modanwal — Backend-Focused Software Engineer</h1>
+        <p>
+          This portfolio needs JavaScript enabled. You can still reach me at
+          <a href="mailto:shubham.modanw@gmail.com" style="color: #4f8cff">shubham.modanw@gmail.com</a>
+          or <a href="tel:+919115370316" style="color: #4f8cff">+91-9115370316</a>, or view
+          <a href="https://github.com/shubham993616" style="color: #4f8cff">my GitHub</a>.
+        </p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

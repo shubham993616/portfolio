@@ -1,0 +1,17 @@
+{
+  "name": "Shubham Modanwal — Backend-Focused Software Engineer",
+  "short_name": "Shubham Modanwal",
+  "description": "Portfolio of Shubham Modanwal — backend engineer working with Java, Spring Boot and MySQL.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0F17",
+  "theme_color": "#0B0F17",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

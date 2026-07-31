@@ -1,0 +1,38 @@
+<!--
+  PLACEHOLDER PORTRAIT — replace this file with your own photo.
+
+  How to replace:
+    1. Save your headshot as `public/images/profile.jpg` (square, 800x800 or larger).
+    2. Open `src/data/profile.ts` and change `avatarPath` to '/images/profile.jpg'.
+    3. Delete the <PlaceholderNotice /> in `src/components/sections/Hero.tsx`.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Placeholder portrait">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141B2D"/>
+      <stop offset="100%" stop-color="#0B0F17"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4F8CFF"/>
+      <stop offset="100%" stop-color="#00D4AA"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0 L0 0 0 24" fill="none" stroke="#273148" stroke-width="1" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect width="400" height="400" fill="url(#grid)"/>
+  <rect width="400" height="400" fill="url(#glow)"/>
+
+  <!-- Abstract figure -->
+  <circle cx="200" cy="158" r="54" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.85"/>
+  <path d="M110 320 Q110 234 200 234 Q290 234 290 320 Z" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.85"/>
+
+  <text x="200" y="172" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="34" font-weight="700" fill="url(#accent)" text-anchor="middle">SM</text>
+  <text x="200" y="366" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#64748B" text-anchor="middle" letter-spacing="2.5">REPLACE THIS PHOTO</text>
+</svg>

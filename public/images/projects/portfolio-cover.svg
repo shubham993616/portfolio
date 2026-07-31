@@ -1,0 +1,67 @@
+<!-- PLACEHOLDER COVER — replace with a real screenshot (1600x900). See README. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Developer Portfolio cover placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141B2D"/>
+      <stop offset="55%" stop-color="#0F1420"/>
+      <stop offset="100%" stop-color="#0B0F17"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#4F8CFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="22%" cy="12%" r="82%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="88%" cy="92%" r="60%">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0 L0 0 0 48" fill="none" stroke="#273148" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <rect width="1600" height="900" fill="url(#glow2)"/>
+
+  <!-- Decorative architecture diagram -->
+  <g opacity="0.9">
+    <rect x="110" y="470" width="1380" height="320" rx="20" fill="#0F1420" stroke="#273148" stroke-width="2"/>
+    <rect x="110" y="470" width="1380" height="56" rx="20" fill="#141B2D"/>
+    <rect x="110" y="508" width="1380" height="18" fill="#141B2D"/>
+    <circle cx="150" cy="498" r="8" fill="#38445F"/>
+    <circle cx="178" cy="498" r="8" fill="#38445F"/>
+    <circle cx="206" cy="498" r="8" fill="#38445F"/>
+    <rect x="250" y="488" width="420" height="20" rx="10" fill="#1B243A"/>
+    <rect x="160" y="576" width="380" height="22" rx="8" fill="#1B243A"/>
+    <rect x="160" y="620" width="640" height="14" rx="7" fill="#161E30"/>
+    <rect x="160" y="650" width="540" height="14" rx="7" fill="#161E30"/>
+    <rect x="160" y="700" width="200" height="46" rx="12" fill="#818CF8" opacity="0.85"/>
+    <rect x="380" y="700" width="200" height="46" rx="12" fill="#141B2D" stroke="#38445F" stroke-width="1.5"/>
+    <rect x="900" y="576" width="560" height="170" rx="14" fill="#141B2D" stroke="#4F8CFF" stroke-opacity="0.4" stroke-width="2"/>
+  </g>
+
+  <text x="110" y="180" font-family="Inter, system-ui, sans-serif" font-size="26" fill="#818CF8" letter-spacing="6">CASE STUDY  ·  2026</text>
+  <text x="110" y="272" font-family="Inter, system-ui, sans-serif" font-size="76" font-weight="700" fill="#F8FAFC" letter-spacing="-2">Developer Portfolio</text>
+  <text x="110" y="330" font-family="Inter, system-ui, sans-serif" font-size="28" fill="#94A3B8">This website</text>
+
+  <g font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="21" fill="#94A3B8">
+    <rect x="110" y="362" width="148" height="46" rx="12" fill="#141B2D" stroke="#273148" stroke-width="1.5"/>
+    <text x="132" y="392" >React 19</text>
+    <rect x="272" y="362" width="174" height="46" rx="12" fill="#141B2D" stroke="#273148" stroke-width="1.5"/>
+    <text x="294" y="392" >TypeScript</text>
+    <rect x="460" y="362" width="96" height="46" rx="12" fill="#141B2D" stroke="#273148" stroke-width="1.5"/>
+    <text x="482" y="392" >Vite</text>
+    <rect x="570" y="362" width="148" height="46" rx="12" fill="#141B2D" stroke="#273148" stroke-width="1.5"/>
+    <text x="592" y="392" >Tailwind</text>
+    <rect x="732" y="362" width="213" height="46" rx="12" fill="#141B2D" stroke="#273148" stroke-width="1.5"/>
+    <text x="754" y="392" >Framer Motion</text>
+  </g>
+
+  <text x="1490" y="838" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#475569" text-anchor="end" letter-spacing="3">PLACEHOLDER COVER</text>
+  <rect x="0" y="0" width="1600" height="6" fill="url(#accent)"/>
+</svg>
